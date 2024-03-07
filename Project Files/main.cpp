@@ -9,11 +9,9 @@
 
 
 
-const char* ssid = "starlink_test";
-const char* password = "masasandalye0";
+const char* ssid = "my_wifi";
+const char* password = "my_password";
 
-// const char* ssid = "enesb";
-// const char* password = "12345678";
 
 
 Adafruit_HMC5883_Unified mag = Adafruit_HMC5883_Unified(12345);
