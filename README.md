@@ -26,7 +26,7 @@ Gözleme alınacak gezegen belirlendikten sonra, ESP32'ye seri haberleşme ile g
 sensorAngleCalculate fonksiyonu, sensör verilerini ve gök cisminin açısal pozisyonunu işleyerek, lazerin hareketini kontrol eder. LCD ekran, seçilen gök cisminin adını ve açısal verilerini gösterir. Program, kullanıcının bir gök cismini seçmesine ve ardından seçilen gök cisminin gözlem açısını hesaplamasına olanak tanıyan bir menü yapısı içerir. Kullanıcı menüden bir gök cismini seçtikten sonra, sensör verileri alınır ve sensorAngleCalculate fonksiyonu kullanılarak lazerin konumu ayarlanır.
 
 Kesme servisleri, kullanıcının butonlara basma eylemlerini algılar ve menüde gezinmesine ve seçim yapmasına olanak tanır. Ana döngü içinde, haberleşme için gerekli kod parçaları çalışır ve veri alışverişi sağlanır. Sensör verileri sürekli olarak kontrol edilir ve güncellenir. Modüler fonksiyon yapısı ile kodun daha sade ve anlaşılır olması hedeflenir.
-![Akış Diyagramı]([https://example.com/image.png](https://github.com/enesbirlik/SpaceLazerProject/blob/main/ak%C4%B1isdiyagrami_v2.png))
+![Akış Diyagramı]((https://github.com/enesbirlik/SpaceLazerProject/blob/main/ak%C4%B1isdiyagrami_v2.png))
 ## Tartışma ve Sonuçlar
 
 Servo motorların istenilen hassasiyette açı kontrolü yapılamadı, ancak yaklaşık değerlerle doğru bir sürüş gerçekleştirildi.
